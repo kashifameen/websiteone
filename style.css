@@ -1,0 +1,212 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: #555555;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 0px;
+}
+
+.menuitem {
+    height: 20px;
+    text-align: right;
+    
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color:#17a2b8;
+    height: 0px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 50px;
+}
+
+.menuitem a i{
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.img {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+span:hover{
+    color: #000000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+   padding: 10px;
+}
+
+.block {
+    background-position: center;
+    background: url(images/monkees.jpg);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(160, 160, 160);
+    border-image: initial;
+    margin: 20px;
+}
+
+
+.container {
+    padding: 80px 120px;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 52px;
+    height: 52px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+#menu-outer {
+	height: 84px;
+	
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	
+    text-align: center;
+}
+	ul#horizontal-list li {
+		display: inline;
+	}
+	
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 400px/1 FontAwesome;
+    width: 52px;
+    color:#1aa2b7;
+    height: 52px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 7px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa:hover{
+transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    color: #000000;
+}
+.person {
+    border: 10px solid transparent;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 1;
+    
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Remove border and add padding to thumbnails */
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.bg-1 h3 {color: #000000;}
+.bg-1 p {font-style: italic;}
+
+.yogo{
+    padding-top: 100px;
+}
